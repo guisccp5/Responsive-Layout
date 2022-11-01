@@ -1,0 +1,84 @@
+/* *** Layouts *** */
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 100%; /* colocando em porcentagem, o site fica responsivel */
+    margin: 0 auto;
+    background: #fff;
+    min-width: 720px; /* define uma largura minina ao qual o navegador pode ser reduzido*/
+    max-width: 960px; /* define o maximo, para que a tela não se expanda por inteiro*/
+}
+
+#marca {
+    height: 250px;
+    background: #9E9E9E url(imagens/cabecalho\(1\).gif) center;
+    text-align: center;
+    line-height: 250px;
+}
+
+/*
+#imagem {
+    width: 90%;
+    overflow: hidden; esconde a parte da imagem q ultrapassar o bloco
+}*/
+
+#conteudo {
+    /* width: 520px; -> (520+180 = 700) | 520 * 100% / 700 =  74.28% */
+    width: 75%;;
+    float: right;
+}
+
+#navegacao {
+    /* width: 180px; -> 180 * 100% / 700 = 25,71% */
+    width: 23%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#conteudo-principal {
+    /* width: 320px; -> (320+180 = 500) 320*100/500 = 64% */
+    width: 64%;
+    float: left;
+}
+
+img.img-noticia {
+    width: 94%;
+    padding: 2%;
+    max-width: 600px;
+}
+
+#conteudo-secundario {
+    /* width: 180px; -> 180*100/500 = 36% */
+    width: 34%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#rodape {
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+    text-align: center;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
